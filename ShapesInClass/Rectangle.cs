@@ -20,6 +20,19 @@ namespace ShapesInClass
             Height = 0;
         }
 
+        public Rectangle(double h, double w) //Paramaterized constructor
+        {
+            Width = w;
+            Height = h;
+        }
+
+
+        public Rectangle(Rectangle r) //Copy Constructor
+        {
+            Width = r.Width;
+            Height = r.Height;
+        }
+
         //Methods
 
         //Calculate Area
